@@ -38,7 +38,7 @@ const pageTitle =
       : `${title} · ${SITE_NAME}`;
 
 // Absolute canonical URL (for OG + canonical link).
-const canonicalHref = new URL(Astro.url.pathname, Astro.site ?? "https://vivekpal1.github.io").toString();
+const canonicalHref = new URL(Astro.url.pathname, Astro.site ?? "https://shubhamxcode.github.io").toString();
 
 // Resolve the OG image URL. Fallback: site-level favicon so the card at least
 // shows the brand marble until we ship a real OG image.
@@ -79,7 +79,7 @@ const ogImageUrl = ogImage
     <meta name="twitter:image" content={ogImageUrl} />
 
     <meta name="robots" content="index,follow" />
-    <meta name="author" content="Vivek Pal" />
+    <meta name="author" content="Shubham Varshney" />
   </head>
   <body class="bg-canvas text-ink antialiased">
     <slot />

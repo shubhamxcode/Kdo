@@ -332,7 +332,7 @@ fn write_kdo_toml(
 
     let content = format!(
         r#"# kdo workspace configuration
-# https://github.com/vivekpal1/kdo
+# https://github.com/shubhamxcode/Kdo
 #
 {projects_line}
 
@@ -1330,7 +1330,7 @@ fn cmd_upgrade(version: Option<&str>, dry_run: bool) -> miette::Result<()> {
 
     let archive = format!("kdo-{target_version}-{platform}.tar.gz");
     let url =
-        format!("https://github.com/vivekpal1/kdo/releases/download/{target_version}/{archive}");
+        format!("https://github.com/shubhamxcode/Kdo/releases/download/{target_version}/{archive}");
     eprintln!("  {} {url}", "url".dimmed());
     eprintln!("  {} {}", "target".dimmed(), current_exe.display());
 
@@ -1402,7 +1402,7 @@ fn detect_platform() -> miette::Result<&'static str> {
 /// `/releases/latest` skips prereleases, which is wrong for an alpha project.
 /// We hit `/releases` (list, newest first) and take the first `tag_name`.
 fn fetch_latest_tag() -> miette::Result<String> {
-    let url = "https://api.github.com/repos/vivekpal1/kdo/releases?per_page=1";
+    let url = "https://api.github.com/repos/shubhamxcode/Kdo/releases?per_page=1";
     let curl = std::process::Command::new("curl")
         .args(["-fsSL", "-H", "User-Agent: kdo-upgrade", url])
         .output()

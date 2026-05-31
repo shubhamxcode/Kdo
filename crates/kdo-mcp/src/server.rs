@@ -360,7 +360,7 @@ impl ServerHandler for KdoServer {
                     "Context-native workspace manager for AI coding agents.".to_string(),
                 ),
                 icons: None,
-                website_url: Some("https://github.com/vivekpal1/kdo".to_string()),
+                website_url: Some("https://github.com/shubhamxcode/Kdo".to_string()),
             },
         }
     }

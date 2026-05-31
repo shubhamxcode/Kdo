@@ -610,7 +610,7 @@ If the MCP connection is unavailable, shell out:
 - `kdo affected --base main` — changed projects
 - `kdo run <task>` — run a task across projects
 
-Full reference: `kdo --help` or https://vivekpal1.github.io/kdo/docs/cli
+Full reference: `kdo --help` or https://shubhamxcode.github.io/kdo/docs/cli
 "#
 }
 
@@ -626,7 +626,7 @@ fn agents_md_block() -> &'static str {
 4. `kdo_read_symbol` — only for specific function bodies
 5. `kdo_search_code` — cross-project pattern search
 
-Full catalog + docs: https://vivekpal1.github.io/kdo/docs/mcp
+Full catalog + docs: https://shubhamxcode.github.io/kdo/docs/mcp
 
 **Loop avoidance:** the server returns an error on the 3rd identical call.
 "#

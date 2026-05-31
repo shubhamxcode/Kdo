@@ -3,7 +3,7 @@ set -euo pipefail
 
 # kdo installer
 # Usage:
-#   curl -fsSL https://vivekpal1.github.io/kdo/install.sh | bash
+#   curl -fsSL https://shubhamxcode.github.io/kdo/install.sh | bash
 #   ./install.sh                   # build from source (requires Rust)
 #   ./install.sh --from-release    # download prebuilt binary
 #
@@ -11,7 +11,7 @@ set -euo pipefail
 #   KDO_PREFIX   Install prefix (default: auto-detect ~/.local or /usr/local)
 #   KDO_VERSION  Binary version for --from-release (default: latest)
 
-REPO="vivekpal1/kdo"
+REPO="shubhamxcode/Kdo"
 VERSION="${KDO_VERSION:-latest}"
 
 # Colors

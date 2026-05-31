@@ -8,9 +8,9 @@ version = "0.2.0-alpha.1"
 edition = "2021"
 rust-version = "1.75"
 license = "MIT"
-repository = "https://github.com/vivekpal1/kdo"
-homepage = "https://github.com/vivekpal1/kdo"
-authors = ["Vivek Pal"]
+repository = "https://github.com/shubhamxcode/Kdo"
+homepage = "https://github.com/shubhamxcode/Kdo"
+authors = ["Shubham Varshney"]
 keywords = ["workspace", "monorepo", "mcp", "context", "polyglot"]
 categories = ["development-tools", "command-line-utilities"]
 
