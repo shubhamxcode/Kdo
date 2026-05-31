@@ -9,7 +9,7 @@ import mdx from "@astrojs/mdx";
 // If we move to a custom domain later, set `site` to that and drop `base`.
 export default defineConfig({
   site: "https://shubhamxcode.github.io",
-  base: "/kdo",
+  base: "/Kdo",
   integrations: [mdx()],
   markdown: {
     shikiConfig: {
